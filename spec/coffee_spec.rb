@@ -26,7 +26,10 @@ RSpec.describe 'A cup of coffee' do
       expect(coffee.price).to eq(1.25)
     end
 
-    it 'looks light in color'
+    it 'is light in color' do
+      pending 'color not yet implemented'
+      expect(coffee.color).to be(:light)
+    end
   end
 end
 
