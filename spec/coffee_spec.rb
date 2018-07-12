@@ -31,7 +31,6 @@ RSpec.describe 'A cup of coffee' do
     end
 
     it 'is light in color' do
-      pending 'color not yet implemented'
       expect(coffee.color).to be(:light)
     end
   end
